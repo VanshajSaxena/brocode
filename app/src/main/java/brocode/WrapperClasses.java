@@ -13,6 +13,15 @@ public class WrapperClasses {
 		Double d = 3.15;
 		String s = "Hmm";
 
+		if (s.equals("Hmm")) {
+			System.out.println("This is true.");
+		}
+		if (d == 3.15) {
+			System.out.println("This is true.");
+		}
+		if (c == 123) {
+			System.out.println("This is true.");
+		}
 		if (b == '@') {
 			System.out.println("This is true.");
 		}
