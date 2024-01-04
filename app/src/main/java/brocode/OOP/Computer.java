@@ -2,8 +2,11 @@ package brocode.OOP;
 
 /**
  * Computer
+ * The classes associated with this superclass are used to demonstrate 
+ * inheritance and method overriding
+ * in classes brocode.OOP.Smartphone and brocode.OOP.Desktop
  */
-public class Computer {
+public abstract class Computer {
 
 	String processor;
 	int generation;
@@ -11,13 +14,9 @@ public class Computer {
 	String name;
 	String type;
 
-	void shutdown() {
-		System.out.println("The compputer is shutting down.");
-	}
+	abstract void shutdown() ;
 
-	void startup() {
-		System.out.println("The compputer is starting up.");
-	}
+	abstract void startup();
 
 	public static void main(String[] args) {
 		
