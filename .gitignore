@@ -5,3 +5,5 @@
 # Ignore Gradle build output directory
 build
 app/bin/main/brocode/GuiBoxes.class
+app/src/main/java/brocode/BFS.java
+app/src/main/java/brocode/BFSself.java
