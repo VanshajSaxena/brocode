@@ -2,7 +2,7 @@ package brocode.OOP;
 
 /**
  * Computer
- * The classes associated with this superclass are used to demonstrate 
+ * The classes associated with this superclass are used to demonstrate
  * inheritance and method overriding
  * in classes brocode.OOP.Smartphone and brocode.OOP.Desktop
  */
@@ -14,12 +14,12 @@ public abstract class Computer {
 	String name;
 	String type;
 
-	abstract void shutdown() ;
+	abstract void shutdown();
 
 	abstract void startup();
 
 	public static void main(String[] args) {
-		
+
 		Smartphone phone = new Smartphone();
 		Desktop desktop = new Desktop();
 

@@ -3,7 +3,7 @@ package brocode.OOP;
 /**
  * Desktop
  */
-public class Desktop extends Computer{
+public class Desktop extends Computer {
 
 	String size = "20 inches";
 
@@ -17,6 +17,4 @@ public class Desktop extends Computer{
 		System.out.println("The desktop is starting up.");
 	}
 
-	
-	
 }
