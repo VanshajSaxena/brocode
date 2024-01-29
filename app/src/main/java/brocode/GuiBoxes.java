@@ -11,6 +11,7 @@ public class GuiBoxes {
 		String name = JOptionPane.showInputDialog("Enter your name");
 		JOptionPane.showMessageDialog(null, "Hello " + name);
 		JOptionPane.showMessageDialog(null, "Hello Shan.");
+		JOptionPane.showConfirmDialog(null, "Hello confirm");
 		JOptionPane.showMessageDialog(null, "Hello Hello");
 	}
 }
